@@ -12,6 +12,7 @@ class CreateLoginPage {
   get titleInput() {
     return this.root.locator('input[data-testid="createoredit-input-title"]')
   }
+  // comment
 
   get emailOrUsernameInput() {
     return this.root.locator('input[data-testid="createoredit-input-username"]')
